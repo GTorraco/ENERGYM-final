@@ -13,9 +13,12 @@ body section #carouselExampleCaptions {
   flex-wrap: wrap;
 }
 body section #carouselExampleCaptions .d-block {
-  width: 50rem;
-  height: 50rem;
+  width: 35rem;
+  height: 30rem;
+  margin-top: 5%;
   margin-bottom: 3rem;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
 }
 body section .subtitulo h2 {
   display: flex;
@@ -30,36 +33,43 @@ body section .subtitulo h2 {
 body section .subtitulo p {
   color: rgb(3, 3, 3);
   text-align: center;
-  translate: 0 -8rem;
+  translate: 0 -9rem;
   font-weight: 800;
+  margin: 0 10% 0 10%;
 }
 body section .membresia {
   display: block;
   justify-content: center;
+  text-align: center;
   margin-top: 3rem;
 }
 body section .membresia ul {
-  flex-wrap: wrap;
+  display: block;
   justify-content: center;
   align-items: center;
+  padding-bottom: 3rem;
+}
+body section .membresia ul li {
+  display: block;
+  justify-content: center;
 }
 body section .membresia .cards {
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(50, 54, 54);
   background-size: cover;
+  padding-top: 2rem;
 }
 body section .membresia .image-membres-a-websc {
-  width: 25rem;
+  width: 50%;
+  height: 50%;
 }
 body section li {
   margin: 2rem;
   list-style: none;
   justify-content: center;
   text-align: center;
-}
-body section li img {
-  width: 20px;
+  margin-right: 25%;
 }
 body section h4 {
   text-align: center;
@@ -69,30 +79,48 @@ body section h4 {
 body section p {
   color: white;
 }
-body section .boton {
+body section li {
+  text-align: center;
+  justify-content: center;
+}
+body section li .boton {
   color: white;
   border: 0.1rem solid black;
   padding: 0.5rem 2rem;
   border-radius: 1rem;
-  background-color: rgb(19, 46, 157);
+  background-color: rgb(9, 37, 151);
   justify-content: center;
   text-align: center;
 }
-body section .boton:hover {
+body section li .boton:hover {
   background-color: rgb(8, 115, 154);
 }
-body .galeria {
-  font-size: 5rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+body section .galeria {
+  font-size: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: white;
   text-align: center;
   justify-content: center;
+  text-decoration: underline;
+}
+body section .lugar {
+  display: flex;
+  justify-content: center;
+}
+body section .row2 {
+  display: flex;
+  justify-content: center;
+  margin: 5% 20% 10% 25%;
+}
+body section .row2 .img-fluid {
+  width: 50%;
 }
 
 section .card {
   background-image: url(../imagenes/fondedemusculacion.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 section .card h2 {
   flex-wrap: wrap;
@@ -131,6 +159,7 @@ section .card-text {
   background-image: url(../imagenes/crossfit.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   padding-bottom: 7rem;
   padding-top: 5rem;
 }
@@ -190,6 +219,7 @@ section .card-text {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 120rem;
+  padding-bottom: 3rem;
 }
 .formulario .form {
   display: grid;
@@ -207,7 +237,7 @@ section .card-text {
 }
 .formulario .form .button {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding: 0.2rem;
   border-radius: 1rem;
   background-color: rgb(11, 35, 214);

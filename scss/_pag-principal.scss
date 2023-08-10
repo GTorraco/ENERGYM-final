@@ -7,21 +7,28 @@ body{
     box-sizing: border-box;
     background-color:$color-principal;
     
+    
+
+   
+    
     h2{
       color: rgb(255, 255, 255);
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    
+    section{
      
-      section{
+      
 
         #carouselExampleCaptions{
           flex-wrap: wrap;
 
          .d-block{
-          width: 50rem;
-          height: 50rem;
+          width: 35rem;
+          height: 30rem;
+          margin-top: 5%;
           margin-bottom: 3rem;
+          margin-left: 0.5%;
+          margin-right: 0.5%;
          }
         }
 
@@ -41,19 +48,30 @@ body{
           p{
             color: rgb(3, 3, 3);
             text-align: center;
-            translate: 0 -8rem;
+            translate: 0 -9rem;
             font-weight: 800;
+            margin: 0 10% 0 10%;
           }
         }
         .membresia{
           display: block;
           justify-content: center;
+          text-align: center;
           margin-top: 3rem;
           
+          
+          
           ul{
-            flex-wrap: wrap;
+            display: block;
             justify-content: center;
             align-items: center;
+            padding-bottom: 3rem;
+            
+            li{
+              display: block;
+              justify-content: center;
+            }
+            
            
             
           }
@@ -63,12 +81,17 @@ body{
             justify-content: center;
             background-color: rgb(50, 54, 54);
             background-size: cover;
+            padding-top: 2rem;
+           
             
             
           }
 
           .image-membres-a-websc{
-             width: 25rem;
+             width: 50%;
+             height: 50%;
+             
+             
           
           }
           
@@ -79,9 +102,10 @@ body{
           list-style: none;
           justify-content: center;
           text-align: center;
-          img{
-            width: 20px;
-          }
+          margin-right: 25%;
+          
+         
+          
         }
         h4{
           text-align: center;
@@ -92,43 +116,66 @@ body{
         p{
           color: white;
           
+          
         }
+       li{text-align: center;
+        justify-content: center;
+          
        
         .boton{
           color: white;
           border: 0.1rem solid black;
           padding: 0.5rem 2rem;
           border-radius: 1rem;
-          background-color: rgb(19, 46, 157);
+          background-color: rgb(9, 37, 151);
           justify-content: center;
           text-align: center;
+          
           
         }
 
         .boton:hover{
           background-color: rgb(8, 115, 154);
         }
-
-      }
+}
+     
       .galeria{
-        font-size: 5rem;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
         text-align: center;
         justify-content: center;
-
-        
-        
-
-        
-        
-
+        text-decoration: underline;
+}
+        .lugar{
+          display: flex;
+          justify-content: center;
           
-         
+          
+        }
+        .row2{
+          display: flex;
+          justify-content: center;
+          margin: 5% 20% 10% 25%;
+          
+          .img-fluid{
+            width: 50%;
+            
+          }
+        }
+           }
+             }
+                
         
-      }
+        
+          
+        
       
-      }
+      
+      
+     
+
+      
 
         
         
