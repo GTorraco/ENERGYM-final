@@ -1,0 +1,43 @@
+@import"variables.scss";
+
+
+
+    .formulario{
+    background-image: url(../imagenes/fondo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120rem;
+
+    .form{
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    margin-top: 3rem;
+
+    label{
+        text-align: start;
+        color: white;
+        font-weight: 500;
+    }
+    
+    h1{
+        color: white;
+    }
+    .button{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding:0.2rem ;
+        border-radius: 1rem;
+        background-color: rgb(11, 35, 214);
+        color: white;
+        
+    }
+    .button:hover{
+            background-color: rgb(23, 80, 224);
+            color: black;
+        }
+    p{
+        color: white;
+    }
+}
+}

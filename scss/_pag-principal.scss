@@ -1,0 +1,148 @@
+@import "variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Lemonada&family=Saira+Stencil+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:$color-principal;
+    
+    h2{
+      color: rgb(255, 255, 255);
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+     
+      section{
+
+        #carouselExampleCaptions{
+          flex-wrap: wrap;
+
+         .d-block{
+          width: 50rem;
+          height: 50rem;
+          margin-bottom: 3rem;
+         }
+        }
+
+        .subtitulo{
+
+          h2{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-image: url(../imagenes/pesas.jpg);
+           padding: 7rem;
+           margin: 3rem 1rem;
+           border-radius: 1rem;
+           color: black;
+           
+          }
+          p{
+            color: rgb(3, 3, 3);
+            text-align: center;
+            translate: 0 -8rem;
+            font-weight: 800;
+          }
+        }
+        .membresia{
+          display: block;
+          justify-content: center;
+          margin-top: 3rem;
+          
+          ul{
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+           
+            
+          }
+       
+          .cards{
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgb(50, 54, 54);
+            background-size: cover;
+            
+            
+          }
+
+          .image-membres-a-websc{
+             width: 25rem;
+          
+          }
+          
+          
+        }
+        li{
+          margin: 2rem; 
+          list-style: none;
+          justify-content: center;
+          text-align: center;
+          img{
+            width: 20px;
+          }
+        }
+        h4{
+          text-align: center;
+          color: white;
+          text-decoration: underline;
+         
+        }
+        p{
+          color: white;
+          
+        }
+       
+        .boton{
+          color: white;
+          border: 0.1rem solid black;
+          padding: 0.5rem 2rem;
+          border-radius: 1rem;
+          background-color: rgb(19, 46, 157);
+          justify-content: center;
+          text-align: center;
+          
+        }
+
+        .boton:hover{
+          background-color: rgb(8, 115, 154);
+        }
+
+      }
+      .galeria{
+        font-size: 5rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        text-align: center;
+        justify-content: center;
+
+        
+        
+
+        
+        
+
+          
+         
+        
+      }
+      
+      }
+
+        
+        
+        
+        
+        
+      
+      
+      
+        
+        
+    
+
+    
+
+
+

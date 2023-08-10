@@ -1,0 +1,47 @@
+@import"variables.scss";
+
+.crossfit{
+      
+    background-image: url(../imagenes/crossfit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 7rem;
+    padding-top: 5rem;
+    
+    }
+    .mega{
+    display: flex;
+    margin-top: 0.3rem;
+    margin-bottom: 3rem;
+    
+    justify-content: center;
+    
+    h2{
+        font-size: 300%;
+        
+    }
+    }
+    .contenido{
+        display: flex;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.5rem;
+        
+        
+    }
+    .video{
+        display: flex;
+        justify-content: center;
+        margin-top: 10rem;
+       
+
+        iframe{
+    
+        width: 50rem;
+        height: 30rem;
+}
+    }
+
+    
+
