@@ -5,8 +5,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:$color-principal;
-    
+    background-image: linear-gradient(rgb(65, 65, 65), rgb(200, 200, 200));
+     
     
 
    
@@ -14,7 +14,11 @@ body{
         h2{
           color: rgb(255, 255, 255);
           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+           
+          
+      }
+       
+       }     
 section{
      
       
@@ -34,7 +38,7 @@ section{
 
     .subtitulo{
 
-    h2{
+    h4{
           display: flex;
           justify-content: center;
           text-align: center;
@@ -59,19 +63,22 @@ section{
           text-align: center;
           margin-top: 3rem;
           
+         
           
           
     ul{
-            display: block;
-            justify-content: center;
-            align-items: center;
-            padding-bottom: 3rem;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 3rem;
+      display: block;
+      justify-content: center;
+    
+ li{
+            background-size: cover;
+            padding-top: 2rem;
             
-    li{
-            display: block;
-            justify-content: center;
-            
-            }
+      }
             
            
             
@@ -80,9 +87,8 @@ section{
     .cards{
             flex-wrap: wrap;
             justify-content: center;
-            background-color: rgb(50, 54, 54);
-            background-size: cover;
-            padding-top: 2rem;
+            
+    
            
             
             
@@ -164,7 +170,7 @@ section{
             
           }
         }
-           }
+           
              
                 
         

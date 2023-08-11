@@ -3,16 +3,17 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(48, 46, 46);
+  background-image: linear-gradient(rgb(65, 65, 65), rgb(200, 200, 200));
 }
 body h2 {
   color: rgb(255, 255, 255);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-body section #carouselExampleCaptions {
+
+section #carouselExampleCaptions {
   flex-wrap: wrap;
 }
-body section #carouselExampleCaptions .d-block {
+section #carouselExampleCaptions .d-block {
   width: 35rem;
   height: 30rem;
   margin-top: 5%;
@@ -20,7 +21,7 @@ body section #carouselExampleCaptions .d-block {
   margin-left: 0.5%;
   margin-right: 0.5%;
 }
-body section .subtitulo h2 {
+section .subtitulo h4 {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -30,56 +31,55 @@ body section .subtitulo h2 {
   border-radius: 1rem;
   color: black;
 }
-body section .subtitulo p {
+section .subtitulo p {
   color: rgb(3, 3, 3);
   text-align: center;
   translate: 0 -9rem;
   font-weight: 800;
   margin: 0 10% 0 10%;
 }
-body section .membresia {
+section .membresia {
   display: block;
   justify-content: center;
   text-align: center;
   margin-top: 3rem;
 }
-body section .membresia ul {
+section .membresia ul {
   display: block;
   justify-content: center;
   align-items: center;
   padding-bottom: 3rem;
-}
-body section .membresia ul li {
   display: block;
   justify-content: center;
 }
-body section .membresia .cards {
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: rgb(50, 54, 54);
+section .membresia ul li {
   background-size: cover;
   padding-top: 2rem;
 }
-body section .membresia .image-membres-a-websc {
+section .membresia .cards {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section .membresia .image-membres-a-websc {
   width: 50%;
   height: 50%;
 }
-body section li {
+section li {
   margin-right: 1.2%;
   list-style: none;
   margin-bottom: 2%;
   justify-content: center;
   text-align: center;
 }
-body section h4 {
+section h4 {
   text-align: center;
   color: white;
   text-decoration: underline;
 }
-body section p {
+section p {
   color: white;
 }
-body section .boton {
+section .boton {
   color: white;
   border: 0.1rem solid black;
   padding: 0.5rem 2rem;
@@ -88,10 +88,11 @@ body section .boton {
   justify-content: center;
   text-align: center;
 }
-body section .boton:hover {
+section .boton:hover {
   background-color: rgb(8, 115, 154);
 }
-body .galeria {
+
+.galeria {
   font-size: 3rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: white;
@@ -99,16 +100,18 @@ body .galeria {
   justify-content: center;
   text-decoration: underline;
 }
-body .lugar {
+
+.lugar {
   display: flex;
   justify-content: center;
 }
-body .row2 {
+
+.row2 {
   display: flex;
   justify-content: center;
   margin: 5% 20% 10% 25%;
 }
-body .row2 .img-fluid {
+.row2 .img-fluid {
   width: 50%;
 }
 
