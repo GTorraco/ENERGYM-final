@@ -1,6 +1,7 @@
 @import"variables.scss";
 
 section{
+    
 
     .card{
         
@@ -11,41 +12,41 @@ section{
         
 
     h2{
-    flex-wrap: wrap;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    color: #ffffff;
-    font-size: 300%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        color: #ffffff;
+        font-size: 300%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }    
 
-ul{
-    display: block;
-    justify-content: center;
+    ul{
+        display: block;
+        justify-content: center;
     
 }
-.top{
-    flex-wrap: wrap;
-    width: 40%;
-    height: 40%rem;
+    .top{
+        flex-wrap: wrap;
+        width: 40%;
+        height: 40%rem;
 }
-h5{
-    flex-wrap: wrap;
-    text-align: center;
-    text-decoration: underline;
-    color: #ffffff;
-    font-weight: 800;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    h5{
+        flex-wrap: wrap;
+        text-align: center;
+        text-decoration: underline;
+        color: #ffffff;
+        font-weight: 800;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 }
 }
 
     
     
-.card-text{
-   text-align: center;
-   font-weight: 600;
-   margin-left: 5%;
-   margin-right: 5%;
+    .card-text{
+        text-align: center;
+        font-weight: 600;
+        margin-left: 5%;
+        margin-right: 5%;
 }
 }

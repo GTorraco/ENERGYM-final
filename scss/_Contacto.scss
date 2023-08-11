@@ -3,17 +3,17 @@
 
 
     .formulario{
-    background-image: url(../imagenes/fondo3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 120rem;
-    padding-bottom: 3rem;
+        background-image: url(../imagenes/fondo3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120rem;
+        padding-bottom: 3rem;
 
     .form{
-    display: grid;
-    grid-template-columns: 1;
-    justify-content: center;
-    margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 1;
+        justify-content: center;
+         margin-top: 3rem;
 
     label{
         text-align: start;
@@ -34,9 +34,9 @@
         
     }
     .button:hover{
-            background-color: rgb(23, 80, 224);
-            color: black;
-        }
+        background-color: rgb(23, 80, 224);
+        color: black;
+    }
     p{
         color: white;
     }
