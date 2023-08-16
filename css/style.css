@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(rgb(65, 65, 65), rgb(200, 200, 200));
+  background-image: linear-gradient(rgb(96, 175, 236), rgb(15, 56, 159));
 }
 body h1 {
   color: rgb(255, 255, 255);
@@ -124,7 +124,7 @@ section .card {
 section .card h2 {
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 7rem;
   margin-bottom: 3rem;
   color: #ffffff;
   font-size: 300%;
@@ -228,7 +228,7 @@ section .card-text {
 }
 .formulario .form label {
   text-align: start;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 500;
 }
 .formulario .form h1 {
