@@ -5,7 +5,7 @@ body {
   box-sizing: border-box;
   background-image: linear-gradient(rgb(65, 65, 65), rgb(200, 200, 200));
 }
-body h2 {
+body h1 {
   color: rgb(255, 255, 255);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -21,7 +21,7 @@ section #carouselExampleCaptions .d-block {
   margin-left: 0.5%;
   margin-right: 0.5%;
 }
-section .subtitulo h4 {
+section .subtitulo h5 {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -29,7 +29,7 @@ section .subtitulo h4 {
   padding: 7rem;
   margin: 3rem 1rem;
   border-radius: 1rem;
-  color: black;
+  color: rgb(10, 10, 10);
 }
 section .subtitulo p {
   color: rgb(3, 3, 3);
@@ -71,7 +71,7 @@ section li {
   justify-content: center;
   text-align: center;
 }
-section h4 {
+section h6 {
   text-align: center;
   color: white;
   text-decoration: underline;
